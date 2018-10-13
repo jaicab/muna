@@ -6939,3 +6939,9 @@ article.has-post-thumbnail .entry-title {
 		clear: none;
 	}
 }
+
+/* Jaime Caballero's changes - jaicab.com */
+.btn.menupopup_btn,
+.menu-item-138 {
+	display: none;
+}
