@@ -6944,6 +6944,8 @@ article.has-post-thumbnail .entry-title {
 .btn.menupopup_btn,
 .menu-item-138,
 .hide_reserva,
-.menu-item-357 {
+.menu-item-357,
+.newsletter-section,
+.search-block {
 	display: none;
 }
