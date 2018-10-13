@@ -6942,6 +6942,8 @@ article.has-post-thumbnail .entry-title {
 
 /* Jaime Caballero's changes - jaicab.com */
 .btn.menupopup_btn,
-.menu-item-138 {
+.menu-item-138,
+.hide_reserva,
+.menu-item-357 {
 	display: none;
 }
