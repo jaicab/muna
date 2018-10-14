@@ -6949,3 +6949,58 @@ article.has-post-thumbnail .entry-title {
 .search-block {
 	display: none !important;
 }
+
+.c-menu {
+	margin: 1em 0;
+}
+
+.c-menu__title {
+	position: relative;
+	font-family: "Raleway",sans-serif;
+	font-weight: 600;
+	padding: 0.5em 0;
+	margin-bottom: 1em;
+}
+
+.c-menu__title:before,
+.c-menu__title:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 3em;
+	background: #c59d5f;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.c-menu__title:after {
+	top: auto;
+	bottom: 0;
+}
+
+.c-menu__price {
+	position: relative;
+	font-weight: 600;
+	font-style: italic;
+	color: #c59d5f;
+	font-size: 20px;
+	margin: 2em 0 1em;
+}
+
+.c-menu__price::before {
+	content: '';
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	border: 1px solid #c59d5f;
+	display: block;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
