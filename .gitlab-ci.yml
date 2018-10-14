@@ -1,0 +1,8 @@
+before_script:
+  - npm install html5-lint
+  - npm install csslint -g
+
+test:
+  script:
+    - node tests/html_lint.js
+    - csslint assets/css/elements.css
