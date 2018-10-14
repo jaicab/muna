@@ -6947,5 +6947,5 @@ article.has-post-thumbnail .entry-title {
 .menu-item-357,
 .newsletter-section,
 .search-block {
-	display: none;
+	display: none !important;
 }
