@@ -75,7 +75,6 @@
 */
 
 
-
 /* + Header */
 /* - Header1 */
 .header_s .top-header1 {
@@ -7006,4 +7005,17 @@ article.has-post-thumbnail .entry-title {
 	right: 0;
 	bottom: 0;
 	left: 0;
+}
+
+
+/* Reservas link */
+.menu-item-157 a {
+	font-weight: 800 !important;
+	letter-spacing: 1px !important;
+	background: #af672c !important;
+	display: inline-block !important;
+	padding: 0.66em 1em !important;
+	color: white !important;
+	position: relative !important;
+	top: 0.3em !important;
 }
