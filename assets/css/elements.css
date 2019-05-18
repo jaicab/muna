@@ -7007,7 +7007,6 @@ article.has-post-thumbnail .entry-title {
 	left: 0;
 }
 
-
 /* Reservas link */
 .menu-item-157 a {
 	font-weight: 500 !important;
@@ -7018,4 +7017,12 @@ article.has-post-thumbnail .entry-title {
 	color: white !important;
 	position: relative !important;
 	top: 0.3em !important;
+}
+
+/* Groups block */
+@media screen and (min-width: 992px) {
+	.l-groups {
+		display: flex;
+		align-items: center;
+	}
 }
